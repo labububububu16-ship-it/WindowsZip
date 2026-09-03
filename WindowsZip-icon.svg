@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Windows 压缩包应用图标</title>
+  <desc id="desc">蓝色文件夹、银色拉链和清理闪光组成的应用图标</desc>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4E9CFF"/>
+      <stop offset="0.52" stop-color="#2164D5"/>
+      <stop offset="1" stop-color="#123A9A"/>
+    </linearGradient>
+    <linearGradient id="folderBack" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#F4C75F"/>
+      <stop offset="1" stop-color="#D98522"/>
+    </linearGradient>
+    <linearGradient id="folderFront" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFD978"/>
+      <stop offset="1" stop-color="#E99A2F"/>
+    </linearGradient>
+    <linearGradient id="zipper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#C9D8EA"/>
+      <stop offset="1" stop-color="#7893B4"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#071C55" flood-opacity="0.34"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <clipPath id="tileClip">
+      <rect x="64" y="64" width="896" height="896" rx="224"/>
+    </clipPath>
+  </defs>
+
+  <rect x="64" y="64" width="896" height="896" rx="224" fill="url(#tile)" filter="url(#shadow)"/>
+  <path d="M64 430C245 322 360 358 504 286C660 208 812 270 960 185V64H64Z" fill="#FFFFFF" opacity="0.08" clip-path="url(#tileClip)"/>
+  <path d="M64 824C248 710 397 812 552 738C714 661 817 712 960 634V960H64Z" fill="#061D65" opacity="0.16" clip-path="url(#tileClip)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M186 370C186 332 217 301 255 301H408L461 357H741C779 357 810 388 810 426V690H186Z" fill="url(#folderBack)"/>
+    <path d="M164 430C164 392 195 361 233 361H791C829 361 860 392 860 430V682C860 720 829 751 791 751H233C195 751 164 720 164 682Z" fill="url(#folderFront)"/>
+    <path d="M179 441C189 407 218 386 254 386H792C822 386 848 404 858 432C824 420 784 415 741 415H255C226 415 200 424 179 441Z" fill="#FFE59B" opacity="0.72"/>
+    <path d="M190 682C230 711 275 718 328 718H780C813 718 840 706 856 685C854 721 827 744 791 744H233C207 744 187 718 190 682Z" fill="#B86C20" opacity="0.2"/>
+
+    <path d="M518 407V690" stroke="#173D82" stroke-width="28" stroke-linecap="round" opacity="0.24"/>
+    <path d="M518 407V690" stroke="url(#zipper)" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#9CB1CA" stroke="#F7FBFF" stroke-width="4">
+      <rect x="500" y="434" width="36" height="23" rx="7"/>
+      <rect x="500" y="475" width="36" height="23" rx="7"/>
+      <rect x="500" y="516" width="36" height="23" rx="7"/>
+      <rect x="500" y="557" width="36" height="23" rx="7"/>
+      <rect x="500" y="598" width="36" height="23" rx="7"/>
+      <rect x="500" y="639" width="36" height="23" rx="7"/>
+    </g>
+    <path d="M494 398H542C555 398 565 409 563 422L558 455H478L473 422C471 409 481 398 494 398Z" fill="url(#zipper)" stroke="#FFFFFF" stroke-width="5"/>
+    <circle cx="518" cy="422" r="8" fill="#567698"/>
+  </g>
+
+  <g transform="translate(746 246)">
+    <circle cx="0" cy="0" r="46" fill="#63E7FF" opacity="0.2" filter="url(#softGlow)"/>
+    <path d="M0 -66L12 -12L66 0L12 12L0 66L-12 12L-66 0L-12 -12Z" fill="#BDF8FF"/>
+    <path d="M0 -40L7 -7L40 0L7 7L0 40L-7 7L-40 0L-7 -7Z" fill="#FFFFFF"/>
+  </g>
+  <circle cx="806" cy="350" r="10" fill="#D9FCFF" opacity="0.92"/>
+  <circle cx="770" cy="382" r="6" fill="#D9FCFF" opacity="0.72"/>
+</svg>

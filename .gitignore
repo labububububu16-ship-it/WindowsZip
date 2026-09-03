@@ -1,0 +1,7 @@
+.DS_Store
+__MACOSX/
+._*
+__pycache__/
+*.py[cod]
+.venv/
+WindowsZip-build-copy/
